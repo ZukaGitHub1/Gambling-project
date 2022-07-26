@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Geo;
+    
+   
+    src: 
+        url(./Font-face/geo_[allfont.net].ttf);
+}
+@font-face {
+    font-family: Quick;
+    src: url(/Font-face/quicksand/Quicksand-Light.ttf);
+}
+@font-face {
+    font-family: Quick-reg ;
+    src: url(/Font-face/quicksand/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: Quick-med;
+    src: url(/Font-face/quicksand/Quicksand-Medium.ttf);
+}
+
+
+
+Body{
+    background-color: rgb(49, 48, 48);
+    margin:0;
+    overflow-x: hidden;
+}
+.Navbar {
+  background-color: rgba(24, 23, 23, 0.942);
+   overflow: hidden;
+ 
+}
+.Navbar a{
+    text-decoration: none;
+    font-size: 13px;
+    color:white;
+    float: left;
+    line-height: 2;
+    font-family: Geo;
+    margin-left: 3rem;
+    padding:5px;
+   
+     
+}
+
+.onlynav  a.active{
+    border-bottom:3px solid orange;
+   
+}
+.onlynav .bar div{
+        width: 25px;
+        height: 2px;
+        border-radius: 12px;
+        background-color: rgb(250, 248, 248);
+        margin: 4px 0;
+ }
+ .onlynav a.bar {
+    display: none;
+ }
+ .Navbar .join-btn{
+    width:4.5em;
+    border-radius: 4px;
+    margin:4px;
+    font-size: 13px;
+    float: left;
+    background-color: rgb(255, 255, 0);
+    font-family: Geo;
+    float:right;
+    padding:5px;
+ }
+ .login-btn{
+    width:4em;
+    border-radius: 4px;
+    margin:4px;
+    font-size: 13px;
+    float: left;
+    background-color: rgb(9, 9, 8);
+    color:white;
+    font-family: Geo;
+    float:right;
+    padding:5px;
+ }
+      
+
+
+
+
+
+      @media  screen and (max-width:900px) {
+        .Navbar a:not(:first-child){
+            display: none;
+        }
+        .Navbar a.bar  {
+            display: block;
+            float:right;
+        }
+      }
+      @media screen and (max-width:900px) {
+        .onlynav.responsive {position: relative;}
+        .onlynav.responsive .bar{
+            position: absolute;
+            right:0;
+            top:0;
+        }
+        .onlynav.responsive a{
+            display: block;
+            float: none;
+            text-align: left;
+        }
+      }
+
+
+      .main {
+        
+        margin-left: 160px; /* Same as the width of the sidenav */
+        padding: 0px 10px;
+        color:#f1f1f1;
+        font-family: Quick-reg;
+      
+      }
+
+ .header-container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .bet-container{
+        display: flex;
+        width:100%;
+    }
+    .bet-species{
+        width:20%;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.9);
+        border-radius: 12px;
+        padding: 16px 18px 0 12px ;
+        background-color: #1b1919d6;
+        
+    }
+    .bet-species-container img{
+        width: 20px;
+        height: 20px;
+         object-fit: cover;
+         
+    }
+    .bet-species-container{
+        display: flex;
+        font-family: quick-reg;
+        font-weight: 800;
+        gap:10px;
+        font-size: 14px;
+        align-items: center;
+        border-radius:5px;
+        
+        padding:10px 10px ;
+        margin:5px 4px auto;
+       background-color:rgb(46, 45, 45);
+         
+        
+    }
+    .bet-species-container:hover {
+        background-color: #ccc;
+        color:black;
+
+      }
+    #bet-card{
+        width:65%;
+       
+    }
+    .all-bet-card{
+        width:100%;
+       
+    }
+
+    .column {
+        
+        width: 100%;
+        padding:12px;
+        
+      }
+      
+      /* Remove extra left and right margins, due to padding */
+      .row {margin: 0;
+    left:0;}
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+      
+      /* Style the counter cards */
+      .card {
+        width:100%;
+        height:40px;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.9);
+        border-radius: 12px;
+        padding: 16px ;
+        background-color: #1b1919d6;
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+       
+    
+      }
+      .card h4{
+        font-family: Quick-reg;
+        font-size: 14px;
+        
+      }
+      .card p{
+        display: flex;
+       
+        align-items: center;
+        flex-direction: column;
+      }
+      .card h5{
+        font-size: 10px; 
+    }
+
+      .card img{
+        width:16px;
+        height:16px;
+      }

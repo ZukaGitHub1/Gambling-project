@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Geo;
+    
+   
+    src: 
+        url(./Font-face/geo/geo_[allfont.net].ttf);
+}
+@font-face {
+    font-family: Quick;
+    src: url(/Font-face/quicksand/Quicksand-Light.ttf);
+}
+@font-face {
+    font-family: Quick-reg ;
+    src: url(/Font-face/quicksand/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: Quick-med;
+    src: url(/Font-face/quicksand/Quicksand-Medium.ttf);
+}
+
+#in-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#in-play main{
+    font-size:12px;
+
+}
+.img-betting{
+    
+   width:100%;
+   height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.content{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .vertical-menu {padding-top: 15px;}
+  .vertical-menu a{font-size: 8px;}
+  
+}
+
+
+.vertical-menu {
+    width: 20%;
+    height:100%;
+  background-color: rgb(18, 14, 14);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  }
+  
+  .vertical-menu a {
+  
+    
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Quick;
+    color: #fefafa;
+   
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }

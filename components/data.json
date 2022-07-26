@@ -1,0 +1,92 @@
+[{
+    "groups": "Georgia vs Spain",
+    "bet1" : "1",
+    "betx ": "X",
+    "bet2": "2",
+    "bet1x": "1X",
+    "bet1x2" : "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"2.05",
+    "betxcoef" :"2.25",
+    "bet2coef" :"1.25"
+  },
+  {
+    "groups": "Chelsea vs Manchester City",
+    "bet1" : "1",
+    "betx": "X",
+    "bet2": "2",
+    "bet1x": "1X",
+    "bet1x2" : "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"1.75",
+    "betxcoef" :"2.25",
+    "bet2coef" :"1.25"
+  },
+  {
+    "groups": "Barcelona vs Real Madrid",
+    "bet1" : "1",
+    "betx ": "X",
+    "bet2": "2",
+    "bet1x": "1X",
+    "bet1x2" : "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"1.25",
+    "betxcoef" :"3.25",
+    "bet2coef" :"2.25"
+  },{
+  "groups": "Barcelona vs Real Madrid",
+   "bet1" : "1",
+    "betx": "X",
+   "bet2": "2",
+    "bet1x" : "1X",
+    "bet1x2" : "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"1.05",
+    "betxcoef" :"3.25",
+    "bet2coef" :"2.25"
+  },{
+    "groups": "Barcelona vs Real Madrid",
+    "bet1" :"1",
+    "betx": "X",
+    "bet2": "2",
+    "bet1x" : "1X",
+    "bet1x2" : "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"1.05",
+    "betxcoef" :"3.25",
+    "bet2coef" :"2.25"
+  },{
+    "groups": "Barcelona vs Real Madrid",
+    "bet1" : "1",
+    "betx" : "X",
+    "bet2": "2",
+    "bet1x" : "1X",
+    "bet1x2 ": "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"1.05",
+    "betxcoef" :"3.25",
+    "bet2coef ":"2.25"
+  },{
+    "groups": "Barcelona vs Real Madrid",
+    "bet1" : "1",
+    "betx" : "X",
+    "bet2": "2",
+    "bet1x" : "1X",
+    "bet1x2" : "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"1.05",
+    "betxcoef" :"3.25",
+    "bet2coef ":"2.25"
+  },{
+    "groups": "Barcelona vs Real Madrid",
+    "bet1" : "1",
+    "betx" : "X",
+    "bet2": "2",
+    "bet1x" : "1X",
+    "bet1x2 ": "1X2",
+    "betx2" : "X2", 
+    "bet1coef" :"1.05",
+    "betxcoef" :"3.25",
+    "bet2coef ":"2.25"
+  }
+  ]

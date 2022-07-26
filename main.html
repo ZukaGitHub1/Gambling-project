@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+    <nav>
+        <div class="Navbar" data-role="navbar" data-grid="c">
+            <div class="onlynav" id="nav" >
+           <a href="#" class="tablinks" onclick="activeApp(event, 'sports')">Sports</a>
+            <a href="#"class="tablinks" id="defaultOpen" onclick="activeApp(event, 'in-play')" >In-play</a>
+            <a href="#"class="tablinks"  onclick="activeApp(event,'casino')" >Casino</a>
+           <a href="#"class="tablinks"   onclick="activeApp(event, 'live-casino')" >Live Casino</a>
+           <a href="#" class="tablinks"  onclick="activeApp(event, 'virtual-sports')"  >Virtual Sports</a>
+           <a href="#" class="bar" onclick="myNav()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+           </div>
+           <button class="login-btn">Log-in</button> 
+           <button class="join-btn">Join</button>
+           
+        </div><!-- /navbar -->
+    </nav>
+      
+    <div id="sports" class="content">
+        <div class="header-container">
+        <div class="vertical-menu">
+            <a href="Fotball" ><img src="/Image/football.png" width="13px" /> Football</a>
+            <a href="Tennis"><img src="/Image/tennis.png" width="13px"> Tennis</a>
+            <a href="Baskeball"><img src="/Image/basketball.png" width="13px"> Baskeball</a>
+            <a href="Hokey"><img src="/Image/hokey.png" width="13px"> Hokey</a>
+          </div>
+          
+          <div class="main">
+            <h2>Win double, bet and get 200% on losses</h2>
+              <img class="img-betting" src="/Image/betting.png" alt="betting" />
+
+          </div>
+        </div>
+           
+          <div class="bet-container">
+            <div class="bet-species" id="bet-species">
+               
+               
+            </div>
+            
+           <div id="bet-card">
+             
+           </div>
+              
+        </div>
+
+    </div>
+    <div id="in-play" class="content">
+        <div class="main">
+            <h2>Sidebar with Icons</h2>
+            <p>This side navigation is of full height (100%) and always shown.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          </div>
+    </div>
+    <div  id="casino"class="content">
+        <div class="main">
+            <h2>Sidebar with Icons</h2>
+            <p>This side navigation is of full height (100%) and always shown.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          </div>
+    </div>
+    <div class="content" id="live-casino">
+        <div class="main">
+            <h2>Sidebar with Icons</h2>
+            <p>This side navigation is of full height (100%) and always shown.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          </div>
+    </div>
+    <div class="content" id="virtual-sports">
+        <div class="main" id="Bets">
+            <h2>Please , Place your Bets please</h2>
+            <p>This side navigation is of full height (100%) and always shown.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          </div>
+    </div>
+</body>
+<script src="/app.js"></script>
+
+</html>
